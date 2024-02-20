@@ -1,5 +1,5 @@
 # miRSM2.0_case_study
-The K562_scRNA dataset includes single-cell miRNA-mRNA co-sequencing data, and prior information of miRNA targets.
+The K562_scRNA dataset in the case study of miRSM 2.0 includes single-cell miRNA-mRNA co-sequencing data, and prior information of miRNA targets.
 
 miR_scRNA: miRNA expression data (212 miRNAs)
 
