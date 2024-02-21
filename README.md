@@ -7,4 +7,6 @@ mR_scRNA: mRNA expression data (15,361 mRNAs)
 
 miRTarget: Putative miRNA-mRNA interactions (762,540 miRNA-mRNA interactions)
 
+CML_genes: A list of 3690 CML-related genes (including miRNAs and mRNAs)
+
 Contact: zhangjunpeng411@gmail.com
