@@ -3,9 +3,9 @@ The K562_scRNA dataset in the case study of miRSM 2.0 includes single-cell miRNA
 
 Script: Code for reproducibility of the analysis in the case study
 
-miR_scRNA: miRNA expression data (212 miRNAs)
+miR_scRNA: miRNA expression data (106 miRNAs)
 
-mR_scRNA: mRNA expression data (7680 mRNAs)
+mR_scRNA: mRNA expression data (7954 mRNAs)
 
 miRTarget: Putative miRNA-mRNA interactions (762,540 miRNA-mRNA interactions)
 
