@@ -1,14 +1,16 @@
 # miRSM 2.0_case_study
-The K562_scRNA dataset in the case study of miRSM 2.0 includes single-cell miRNA-mRNA co-sequencing data, and prior information of miRNA targets.
+The input of the case study of miRSM 2.0 includes single-cell miRNA-mRNA co-sequencing data, and prior information of miRNA targets.
 
 Script: Code for reproducibility of the analysis in the case study
 
-miR_scRNA: miRNA expression data (106 miRNAs)
+GSE114071_NW_scsmRNA_K562_norm_log2: miRNA expression data
 
-mR_scRNA: mRNA expression data (7954 mRNAs)
+GSE114071_NW_half_cell_K562_RNAseq_processed_data: mRNA expression data
 
-miRTarget: Putative miRNA-mRNA interactions (762,616 miRNA-mRNA interactions)
+miRTarBase_v9.0.csv: Putative miRNA-mRNA interactions in miRTarBase v9.0
 
-CML_genes: A list of 3690 CML-related genes (including miRNAs and mRNAs)
+TarBase_v8.0.csv: Putative miRNA-mRNA interactions in TarBase v8.0
+
+CML_genes.csv: A list of 3690 CML-related genes (including miRNAs and mRNAs)
 
 Contact: zjp@dali.edu.cn
