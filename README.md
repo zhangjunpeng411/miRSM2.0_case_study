@@ -11,7 +11,7 @@ miRTarBase_v9.0.csv: Putative miRNA-mRNA interactions in miRTarBase v9.0
 
 TarBase_v8.0.csv: Putative miRNA-mRNA interactions in TarBase v8.0
 
-CML_genes.csv: A list of 3690 CML-related genes (including miRNAs and mRNAs)
+CML_genes.csv: A list of CML-related genes (including miRNAs and mRNAs)
 
 # Troubleshooting
 ## Problem 1:
