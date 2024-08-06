@@ -91,6 +91,7 @@ miRTarget <- SummarizedExperiment(assays=list(miRTarget=miRTarget))
 
 ############################################################################## Step 3: Identifying gene modules #######################################################################
 ## Identifying gene modules at multi-sample and single-sample levels with GFA
+set.seed(123)
 modulegenes_GFA_all <- module_GFA(mR_scRNA)
 length(modulegenes_GFA_all) == 10
 nsamples <- nrow(mR_scRNA)
