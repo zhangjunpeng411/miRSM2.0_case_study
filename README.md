@@ -24,7 +24,7 @@ Install the miRSM R package under a good internet speed or download the source p
 The non-negative matrix factorization (NMF) method fails to identify gene modules.
 
 ## Potential solution: 
-The NMF method is limited to non-negative matrix. Please check if the input RNA-seq data is a non-negative matrix. If the input RNA-seq data is not a non-negative matrix, the data is recommended to remove negative values. If the input RNA-seq data is a non-negative matrix, it is recommended to add a very small constant to the data e.g. 1.0E-06.
+The NMF method is limited to non-negative matrix. Please check if the input RNA-seq data is a non-negative matrix. If the input RNA-seq data is not a non-negative matrix, the data is recommended to remove negative values. If the input RNA-seq data is a non-negative matrix, it is recommended to add a very small constant (e.g. 1.00E-06) to the data.
 
 ## Problem 3:
 The sensitivity canonical correlation (SCC) method fails to infer miRNA sponge modules.
