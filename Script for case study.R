@@ -5,7 +5,7 @@
 ## Function for computing the average expression values of duplicate genes
 # Exp_scRNA: Gene expression values of miRNAs or mRNAs in single cells, rows are cells and 
 # columns are miRNAs or mRNAs
-# Output: temp is single cell expression data without duplicate genes
+# temp:  Single cell expression data without duplicate genes
 Averg_Duplicate <- function(Exp_scRNA){    
       uniqueNameList <- unique(colnames(Exp_scRNA))
       noOfgenes <- length(uniqueNameList)
