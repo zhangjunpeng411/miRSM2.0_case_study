@@ -194,7 +194,7 @@ ggplot(data = df2, mapping = aes(x = Sample, y = Number, fill = Sample)) +
        geom_text(mapping = aes(label = Number), hjust = -0.4) +       
        theme(axis.text.x = element_text(angle = 90), legend.position='none') +
        coord_flip() +
-       ylim(0, 36)  +
+       ylim(0, 18)  +
        labs(y="Number of statistically co-expressed modules")
 
 # Distribution analysis of sharing miRNAs
@@ -218,7 +218,7 @@ ggplot(data = df3, mapping = aes(x = Sample, y = Number, group = 1, color = Samp
        geom_text(mapping = aes(label = Number), hjust = -0.4) +       
        theme(axis.text.x = element_text(angle = 90), legend.position='none') +
        coord_flip() +
-       ylim(0, 100)   +
+       ylim(0, 70)   +
        labs(y="Number of sharing miRNAs")
 
 # Predicting miRNA-target interactions
